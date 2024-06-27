@@ -1,4 +1,4 @@
-# Investigating-with-splunk-(Tryhackme:SOC Level 1)-
+# Investigating-with-splunk-(Tryhackme:SOC Level 1)
 
 
 <H2>Description</H2>
