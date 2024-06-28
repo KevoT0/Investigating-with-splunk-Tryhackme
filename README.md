@@ -37,6 +37,24 @@ Q4. Which user was impersonated?
 
 <img src="https://i.imgur.com/34kSXEr.png" height="80%" width="80%" alt="Investigating with splunk"/>
 
+Q5. Command Used to add the back door?
+<img src="https://i.imgur.com/FKWBDWt.png" height="80%" width="80%" alt="Investigating with splunk"/>
+Using the EventID 4688 to find the newly created backdoor.
+
+Q6. How many times login attempt from the backdoor was observed?
+Using the EventID 4625 to find the number of login attempts
+<img src="https://i.imgur.com/UohLInp.png" height="80%" width="80%" alt="Investigating with splunk"/>
+
+Q7. What is the name of the infected host on which suspicious power shell command were executed?
+<img src="https://i.imgur.com/mPPeEs5.png" height="80%" width="80%" alt="Investigating with splunk"/>
+
+Q8. How many malicious Powershell command were executed?
+Using the eventID 4103 to find out Malicious Powershell command
+<img src="https://i.imgur.com/8e7BAh0.png" height="80%" width="80%" alt="Investigating with splunk"/>
+
+Q9. 
+
+
 <h2>ANSWERS</h2>
 <img src="https://i.imgur.com/SN01rkl.png" height="80%" width="80%" alt="Investigating with splunk"/>
 
