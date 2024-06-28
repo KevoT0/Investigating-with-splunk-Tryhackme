@@ -52,8 +52,20 @@ Q8. How many malicious Powershell command were executed?
 Using the eventID 4103 to find out Malicious Powershell command
 <img src="https://i.imgur.com/8e7BAh0.png" height="80%" width="80%" alt="Investigating with splunk"/>
 
-Q9. 
+Q9. Find the encoded Powershell scriptnfrom the infected Host . what is the full URL?
+<br>
+Finding the encoded script
 
+<img src="https://i.imgur.com/ouxf62Y.png" height="80%" width="80%" alt="Investigating with splunk"/>
+
+Decoding the encoded Base64 text from splunk
+<img src="https://i.imgur.com/TxCSzTY.png" height="80%" width="80%" alt="Investigating with splunk"/>
+
+Decoding the encoded Base64 text from the previous decoded text
+<img src="https://i.imgur.com/gibRkG7.png" height="80%" width="80%" alt="Investigating with splunk"/>
+
+Defanging the decoded text to get the full URL
+<img src="https://i.imgur.com/MsfIcEX.png" height="80%" width="80%" alt="Investigating with splunk"/>
 
 <h2>ANSWERS</h2>
 <img src="https://i.imgur.com/SN01rkl.png" height="80%" width="80%" alt="Investigating with splunk"/>
